@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrega tu comentario!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Titulo del video</h1>
+        <div class="imagen"></div>
+        <form onsubmit="sendCommit(event)" class="cajaComentario">
+            <h3>Comentarios</h3>
+            <textarea id="commit" placeholder="Agrega tu primer comentario!!"></textarea>
+            <button type="submit">Comentar</button>
+            <div id="comentario"></div>
+        </form>
+    </section>
+</body>
+<script src="./app.js"></script>
+</html>
